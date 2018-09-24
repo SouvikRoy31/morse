@@ -1,0 +1,77 @@
+#include<stdio.h>
+int main()
+{
+	char ch[100];
+	int i,n;
+	printf("Enter the lenth of the string: ");
+	scanf("%d", &n);
+	printf("\nEnter the string: ");
+	for(i=0;i<=n;i++)
+	{
+	scanf("%c",&ch[i]);	    
+	}
+	for(i=0;i<=n;i++)
+	{
+		switch(ch[i])
+		{
+		case 'A': printf(".- ");
+			break;
+		case 'B': printf("-... ");
+			continue;
+		case 'C': printf("-.-. ");
+			continue;
+		case 'D': printf("-.. ");
+			continue;
+		case 'E': printf(". ");
+			continue;
+		case 'F': printf("..-. ");
+			continue;
+		case 'G': printf("--. ");
+			continue;
+		case 'H': printf(".... ");
+			continue;
+		case 'I': printf(".. ");
+			continue;
+		case 'J': printf(".--- ");
+			continue;
+		case 'K': printf("-.- ");
+			continue;
+		case 'L': printf(".-.. ");
+			continue;
+		case 'M': printf("-- ");
+			continue;
+		case 'N': printf("-. ");
+			continue;
+		case 'O': printf("--- ");
+			continue;
+		case 'P': printf(".--. ");
+			continue;
+		case 'Q': printf("--.- ");
+			continue;
+		case 'R': printf(".-. ");
+			continue;
+		case 'S': printf("... ");
+			continue;
+		case 'T': printf("- ");
+			continue;
+		case 'U': printf("..- ");
+			continue;
+		case 'V': printf("...- ");
+			continue;
+		case 'W': printf(".-- ");
+			continue;
+		case 'X': printf("-..- ");
+			continue;
+		case 'Y': printf("-.-- ");
+			continue;
+		case 'Z': printf("--.. ");
+			continue;
+		//default: printf("Error");
+		}
+			
+		//}
+
+		
+	}
+}
+
